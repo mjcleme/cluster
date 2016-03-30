@@ -28,7 +28,7 @@ router.get('/', function(req, res, next) {
  
 5. You should now be able to test the application using the route http://YOURIP/
 
-Now add your REST service to get the PID in routes/index.js and tell the browser not to cache the results
+6. Now add your REST service to get the PID in routes/index.js and tell the browser not to cache the results
 
   ```js
 router.get('/pid', function(req, res, next) {
