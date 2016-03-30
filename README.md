@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
 
 Now add your REST service to get the PID in routes/index.js and tell the browser not to cache the results
 
-```js
+ ```js
 router.get('/pid', function(req, res, next) {
   console.log("Service ID "+process.pid);
   res.header("Cache-Control", "no-cache, no-store, must-revalidate");
